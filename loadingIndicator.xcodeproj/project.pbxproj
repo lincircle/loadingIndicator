@@ -12,6 +12,7 @@
 		572F0E2A1E43014F00D633DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572F0E281E43014F00D633DD /* Main.storyboard */; };
 		572F0E2C1E43014F00D633DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572F0E2B1E43014F00D633DD /* Assets.xcassets */; };
 		572F0E2F1E43014F00D633DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572F0E2D1E43014F00D633DD /* LaunchScreen.storyboard */; };
+		572F0E371E4301E000D633DD /* LoadingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572F0E361E4301E000D633DD /* LoadingTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		572F0E2B1E43014F00D633DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572F0E2E1E43014F00D633DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		572F0E301E43014F00D633DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572F0E361E4301E000D633DD /* LoadingTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingTableView.swift; path = ../LoadingTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		572F0E231E43014F00D633DD /* loadingIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				572F0E361E4301E000D633DD /* LoadingTableView.swift */,
 				572F0E241E43014F00D633DD /* AppDelegate.swift */,
 				572F0E261E43014F00D633DD /* ViewController.swift */,
 				572F0E281E43014F00D633DD /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572F0E371E4301E000D633DD /* LoadingTableView.swift in Sources */,
 				572F0E271E43014F00D633DD /* ViewController.swift in Sources */,
 				572F0E251E43014F00D633DD /* AppDelegate.swift in Sources */,
 			);
